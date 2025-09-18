@@ -60,20 +60,16 @@ A documentação está organizada por recurso, detalhando os métodos HTTP dispo
     * **Corpo (JSON):**
         ```json
         {
-          "nomeCidade": "Jales",
-          "uf": {
-            "coduf": 2
-          }
+          "nomeCidade": "Nova Iorque",
+          "nomeUf": "Rio de Janeiro"
         }
         ```
 * **Alterar uma cidade:** `PUT /cidades/{id}`
     * **Corpo (JSON):**
         ```json
         {
-          "nomeCidade": "Rio Preto",
-          "uf": {
-            "coduf": 2
-          }
+           "nomeCidade": "São Paulo",
+           "nomeUf": "São Paulo"
         }
         ```
 * **Deletar uma cidade:** `DELETE /cidades/{id}`
